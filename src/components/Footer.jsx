@@ -15,8 +15,8 @@ export function Footer() {
                             >
                                 <img src="/imgs/logo.svg" alt="Logo" width="30" height="30" className="me-2" />
                                 <span className="brand-text">
-                                    <span className="text-white">Online</span>
-                                    <span className="text-primary text-color"> Shop</span>
+                                    <span className="text-white">Electronic</span>
+                                    <span className="text-primary text-color"> Gadgets</span>
                                 </span>
                             </a>
                         </div>
@@ -119,7 +119,7 @@ export function Footer() {
                         </a>
                     </div>
                     <div>
-                        <FontAwesomeIcon icon={faCopyright} /> {new Date().getFullYear()} Online Shop. 
+                        <FontAwesomeIcon icon={faCopyright} /> {new Date().getFullYear()} Electronic Gadgets. 
                         All rights reserved.
                     </div>
                     <div className="mt-1">
