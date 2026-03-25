@@ -1,5 +1,3 @@
-
-
 services:
   onlineshop:
     build:
@@ -7,5 +5,5 @@ services:
       dockerfile: Dockerfile
     ports:
       - "80:80"
-    container_name: online-shop-con
+    container_name: onlineshop
     restart: always
